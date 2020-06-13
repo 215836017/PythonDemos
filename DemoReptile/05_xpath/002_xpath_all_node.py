@@ -42,7 +42,6 @@ for item in result:
 2. 当然，此处匹配也可以指定节点名称。如果想获取所有 li 节点，示例如下：
 '''
 print('\n\ntest 2222222222222')
-html = etree.parse('test.html', etree.HTMLParser())
 result = html.xpath('//li')
 print(result)
 '''
